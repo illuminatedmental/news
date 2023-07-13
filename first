@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>เว็บไซต์ข่าว</title>
+  <style>
+    /* สไตล์ CSS สำหรับการจัดรูปแบบเว็บไซต์ */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    .article {
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .title {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .date {
+      color: #999;
+      font-size: 14px;
+    }
+
+    .content {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>เว็บไซต์ข่าว</h1>
+
+  <div class="article">
+    <h2 class="title">ข่าวสารที่น่าสนใจ</h2>
+    <p class="date">วันที่เผยแพร่: 13 กรกฎาคม 2566</p>
+    <div class="content">
+      <p>นี่คือเนื้อหาข่าวสารที่น่าสนใจ...</p>
+    </div>
+  </div>
+
+  <div class="article">
+    <h2 class="title">ข่าวสารอื่นๆ</h2>
+    <p class="date">วันที่เผยแพร่: 14 กรกฎาคม 2566</p>
+    <div class="content">
+      <p>นี่คือเนื้อหาข่าวสารอื่นๆ...</p>
+    </div>
+  </div>
+
+</body>
+</html>
